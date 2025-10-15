@@ -1,0 +1,57 @@
+# -------------------------------------------------------------
+# .gitignore for JamoTrOCR Project
+# -------------------------------------------------------------
+# Created by Geon Kim (2025)
+# Excludes checkpoints, data, cache, and temporary files
+# -------------------------------------------------------------
+
+# === Python build and cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env/
+.venv/
+.env.bak/
+.vscode/
+.DS_Store
+
+# === Model checkpoints ===
+checkpoints/
+craft_checkpoints/
+*.pt
+*.pth
+
+# === Data & Results ===
+data/
+results/
+crop/
+logs/
+log.txt
+
+# === Temporary files ===
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === System / Editor Files ===
+Thumbs.db
+*.log
+.idea/
+*.iml
+*.code-workspace
+
+# === Jupyter / Colab ===
+.ipynb_checkpoints/
+*.ipynb
+*.json
+
+# === Output or generated assets ===
+outputs/
+runs/
+experiments/
